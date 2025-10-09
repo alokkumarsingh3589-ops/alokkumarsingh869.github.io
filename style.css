@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(116, 224, 53);
+    color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.9;
+}
+/*profile section*/
+.main-container{
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 350px 1fr;
+    gap: 40px;
+    margin: auto;
+}
+.sidebar{
+    height:120vh;
+    background-color: rgba(45, 235, 235, 0.9);
+    border: 7px solid rgba(130, 8, 245, 0.9);
+    border-radius: 50px;
+}
+.main-content{
+     height: 400vh;
+    background-color: rgba(45, 235, 235, 0.9);
+     border: 7px solid rgba(130, 8, 245, 0.9);
+    border-radius: 50px;
+}
+.profile img{
+    width: 150px;
+  /*  border: 2px solid rgba(130, 8, 245, 0.9);*/
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.profile h2{
+    margin-top: 20px;
+text-align: center;
+display:block;
+    
+    font-weight: 700;
+    margin-top: -30px;
+     
+    margin-left: 0px;
+    padding: 8px;
+}
+.profile {
+    text-align: center;
+display: block;
+
+}
+.location{
+    border-radius: 50px;
+}
+/*contact section*/
+.contact{
+    margin-top: 30px;
+    border-top: 2px solid rgba(245, 63, 139, 0.9);
+    padding-top: 20px;
+    border-radius: 50px;
+}
+.value{
+    color: rgba(65, 4, 231, 0.9);
+    text-decoration: none;
+}
+.social img{
+height: 100px;
+width: 100px;
+text-align: center;
+margin-left: 70px;
+border-radius: 50px;
+
+}
+/*navigation*/
+.navigation{
+   /* padding:10px 150px;*/
+    border-bottom: 5px solid rgba(22, 144, 214, 0.9);
+    border-radius: 50px;
+    display:flex ;
+    justify-content: flex-end;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+}
