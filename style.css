@@ -103,13 +103,10 @@ border-radius: 50px;
 .para1{
     text-align: justify;
 }
-.GRID{
-
-display: grid;
-grid-template-columns: auto 1fr;
-flex-wrap: wrap;
-text-align: center;
-padding: 20px;
-min-width: 80px;
-gap:6px;
+.image {width: 100%;
+    max-width: 120px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
 }
